@@ -1,0 +1,180 @@
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+header footer {
+	clear: both;
+}
+
+header {
+  height: 400px;
+  width: 100%;
+  float: left;
+  background-color: #66768a;
+  color: white;
+}
+
+header li {
+	float: left;
+	margin: 10px 10px 10px 10px;
+}
+
+header button {
+	background-color: white;
+	color: #66768a;
+	margin-left: 1000px;
+}
+
+header h1 {
+	font-weight: bold;
+	font-size: 60px;
+	width: 100%;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
+header p {
+	text-align: center;
+	font-weight: bold;
+	width: 75%;
+	font-size: 20px;
+	margin-left: 175px;
+	margin-bottom: 40px;
+}
+
+header span {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 600px;
+}
+
+.why {
+  height: 275px;
+  width: 100%;
+  float: left;
+	color: #66768a;
+}
+
+.why h2 {
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	width: 100%;
+	margin-top: 75px;
+	margin-bottom: 15px;
+}
+
+.why p {
+	width: 40%;
+	margin-left: 31%;
+	text-align: center;
+	font-weight: bold;
+}
+
+.services {
+	height: 470px;
+  width: 100%;
+  float: left;
+	text-align: center;
+	background-color: #dbdfe2;
+}
+
+.services section {
+	width: 50%;
+	float: left;
+	padding: 10px 10px 10px 10px;
+	margin-top: 60px;
+	text-align: center;
+	color: #66768a;
+}
+
+.services section img {
+	height: 150px;
+	width: 40%;
+}
+
+.services h2 {
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.services section p {
+	margin-top: 20px;
+	width: 75%;
+	margin-left: 15%;
+}
+
+.services button {
+	margin-top: 25px;
+	background-color: #dbdfe2;
+	color: #66768a;
+}
+
+.volunteer {
+	height: 315px;
+  width: 100%;
+  float: left;
+	text-align: center;
+	color: #66768a;
+}
+
+.volunteer h2 {
+	font-weight: bold;
+	font-size: 30px;
+	width: 100%;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+.volunteer p {
+	margin-top: 20px;
+	width: 35%;
+	margin-left: 33%;
+}
+
+.volunteer button {
+	background-color: white;
+	color: #66786a;
+	margin-top: 25px;
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  float: left;
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (max-width: 950px){
+	.why {
+		display: none;
+	}
+	.volunteer {
+		display: none;
+	}
+	header p {
+		display: none;
+	}
+	header span {
+		display: none;
+	}
+}
+
+@media (min-width: 500px) and (max-width: 950px){
+	.why {
+		display: none;
+	}
+	.volunteer {
+		display: none;
+	}
+	header p {
+		display: none;
+	}
+	header span {
+		display: none;
+	}
+}
